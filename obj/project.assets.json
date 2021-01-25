@@ -1,0 +1,226 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Apache.Ignite/2.9.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "[4.4.0, 5.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Apache.Ignite.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Apache.Ignite.Core.dll": {}
+        },
+        "build": {
+          "build/Apache.Ignite.targets": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Apache.Ignite/2.9.1": {
+      "sha512": "QSFpSES5AX6U00zfQloE0lJeMHkUP8iIYJr+22fizbXz3PVOwU08NEK2Rt1T+xKiDlgXBZJm3dDwqEg78e6KVw==",
+      "type": "package",
+      "path": "apache.ignite/2.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "apache.ignite.2.9.1.nupkg.sha512",
+        "apache.ignite.nuspec",
+        "build/Apache.Ignite.targets",
+        "build/output/config/java.util.logging.properties",
+        "build/output/libs/cache-api-1.0.0.jar",
+        "build/output/libs/commons-codec-1.11.jar",
+        "build/output/libs/commons-logging-1.1.1.jar",
+        "build/output/libs/h2-1.4.197.jar",
+        "build/output/libs/ignite-core-2.9.1.jar",
+        "build/output/libs/ignite-indexing-2.9.1.jar",
+        "build/output/libs/ignite-shmem-1.0.0.jar",
+        "build/output/libs/ignite-spring-2.9.1.jar",
+        "build/output/libs/lucene-analyzers-common-7.4.0.jar",
+        "build/output/libs/lucene-core-7.4.0.jar",
+        "build/output/libs/lucene-queryparser-7.4.0.jar",
+        "build/output/libs/spring-aop-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-beans-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-context-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-core-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-expression-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-jdbc-4.3.26.RELEASE.jar",
+        "build/output/libs/spring-tx-4.3.26.RELEASE.jar",
+        "images/logo_ignite_128x128.png",
+        "lib/net40/Apache.Ignite.Core.dll",
+        "lib/net40/Apache.Ignite.Core.xml",
+        "lib/net40/Apache.Ignite.exe",
+        "lib/net40/Apache.Ignite.exe.config",
+        "lib/netstandard2.0/Apache.Ignite.Core.dll",
+        "lib/netstandard2.0/Apache.Ignite.Core.xml",
+        "linqpad-samples/BinaryModeExample.linq",
+        "linqpad-samples/ComputeExample.linq",
+        "linqpad-samples/PutGetExample.linq",
+        "linqpad-samples/QueryExample.linq",
+        "linqpad-samples/ThinClient.linq"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Apache.Ignite >= 2.9.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/Administrator/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/Administrator/reyyo-chat-server/MessageManager.csproj",
+      "projectName": "MessageManager",
+      "projectPath": "/Users/Administrator/reyyo-chat-server/MessageManager.csproj",
+      "packagesPath": "/Users/Administrator/.nuget/packages/",
+      "outputPath": "/Users/Administrator/reyyo-chat-server/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/Administrator/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Apache.Ignite": {
+            "target": "Package",
+            "version": "[2.9.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
